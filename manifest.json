@@ -1,7 +1,7 @@
 {
 	"id": "gladestown-rulership-tracker",
 	"name": "Gladestown Rulership Tracker",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"minAppVersion": "0.15.0",
 	"description": "Track city stats, treasury, unrest, laws, and court turns for a D&D city-rulership subsystem.",
 	"author": "Kesean",
