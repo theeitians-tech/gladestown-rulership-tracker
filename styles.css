@@ -1,0 +1,190 @@
+.gladestown-tracker-root {
+	padding: 8px 12px 40px 12px;
+}
+
+.gt-section {
+	margin-bottom: 18px;
+	padding-bottom: 14px;
+	border-bottom: 1px solid var(--background-modifier-border);
+}
+
+.gt-section h4 {
+	margin: 0 0 8px 0;
+}
+
+.gt-court-banner {
+	background: var(--background-secondary);
+	border-radius: 8px;
+	padding: 10px;
+	border: 1px solid var(--background-modifier-border);
+}
+
+.gt-court-banner.gt-court-due {
+	background: var(--background-modifier-error-rgb, rgba(220, 60, 60, 0.15));
+	border-color: var(--text-error);
+}
+
+.gt-banner-text {
+	font-weight: 600;
+	margin-bottom: 6px;
+}
+
+.gt-progress-wrap {
+	width: 100%;
+	height: 6px;
+	background: var(--background-modifier-border);
+	border-radius: 4px;
+	overflow: hidden;
+	margin-bottom: 8px;
+}
+
+.gt-progress-bar {
+	height: 100%;
+	background: var(--interactive-accent);
+}
+
+.gt-button-row {
+	display: flex;
+	gap: 6px;
+	flex-wrap: wrap;
+	margin-top: 6px;
+}
+
+.gt-btn {
+	cursor: pointer;
+	border-radius: 6px;
+	padding: 4px 10px;
+	font-size: 0.85em;
+}
+
+.gt-btn-sm {
+	padding: 2px 8px;
+}
+
+.gt-btn-primary {
+	background: var(--interactive-accent);
+	color: var(--text-on-accent);
+}
+
+.gt-btn-accent {
+	background: var(--interactive-accent-hover);
+	color: var(--text-on-accent);
+}
+
+.gt-stat-row {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin-bottom: 4px;
+}
+
+.gt-stat-label {
+	flex: 1 0 70px;
+	font-weight: 500;
+}
+
+.gt-stat-value {
+	min-width: 28px;
+	text-align: center;
+	font-variant-numeric: tabular-nums;
+}
+
+.gt-tier-badge {
+	font-size: 0.75em;
+	padding: 1px 6px;
+	border-radius: 10px;
+	margin-left: auto;
+}
+
+.gt-tier-crisis { background: #7a1f1f; color: #fff; }
+.gt-tier-weak { background: #8a5a1f; color: #fff; }
+.gt-tier-sound { background: #3a5a3a; color: #fff; }
+.gt-tier-strong { background: #1f5a7a; color: #fff; }
+.gt-tier-legendary { background: #6a2f8a; color: #fff; }
+
+.gt-small-note {
+	font-size: 0.8em;
+	color: var(--text-muted);
+	margin: 4px 0;
+}
+
+.gt-econ-grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 8px;
+	margin-top: 10px;
+}
+
+.gt-econ-cell {
+	background: var(--background-secondary);
+	border-radius: 6px;
+	padding: 6px 8px;
+}
+
+.gt-econ-label {
+	font-size: 0.75em;
+	color: var(--text-muted);
+}
+
+.gt-econ-value {
+	font-weight: 600;
+}
+
+.gt-law-category summary {
+	cursor: pointer;
+	font-weight: 600;
+	padding: 4px 0;
+}
+
+.gt-law-row {
+	padding: 6px 8px;
+	margin: 4px 0 4px 8px;
+	border-left: 2px solid var(--background-modifier-border);
+}
+
+.gt-law-active {
+	border-left: 2px solid var(--interactive-accent);
+	background: var(--background-secondary);
+	border-radius: 4px;
+}
+
+.gt-law-header {
+	display: flex;
+	justify-content: space-between;
+	font-weight: 500;
+}
+
+.gt-law-cost {
+	color: var(--text-muted);
+	font-size: 0.85em;
+}
+
+.gt-law-notes {
+	font-size: 0.8em;
+	color: var(--text-muted);
+	margin: 2px 0 4px 0;
+}
+
+.gt-law-active-badge {
+	font-size: 0.75em;
+	color: var(--interactive-accent);
+	align-self: center;
+}
+
+.gt-log-list {
+	max-height: 260px;
+	overflow-y: auto;
+	font-size: 0.82em;
+}
+
+.gt-log-entry {
+	padding: 4px 0;
+	border-bottom: 1px dashed var(--background-modifier-border);
+	display: flex;
+	gap: 8px;
+}
+
+.gt-log-meta {
+	color: var(--text-muted);
+	flex: 0 0 60px;
+}
