@@ -1,6 +1,6 @@
 {
 	"name": "gladestown-rulership-tracker",
-	"version": "1.0.0",
+	"version": "1.0.2",
 	"description": "Track city stats, treasury, unrest, laws, and court turns for a D&D city-rulership subsystem.",
 	"main": "main.js",
 	"scripts": {
